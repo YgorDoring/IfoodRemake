@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                style="@style/IfoodCloneButtonStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableEnd="@drawable/ic_arrow_down"
+                android:text="@string/address" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:paddingHorizontal="16dp"
+                android:src="@drawable/ic_qr_code_scanner"
+                app:tint="@color/red" />
+        </androidx.appcompat.widget.Toolbar>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tbl_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@color/red"
+            app:tabIndicatorFullWidth="false"
+            app:tabIndicatorHeight="1dp"
+            app:tabMode="auto"
+            app:tabSelectedTextColor="@color/red"
+            app:tabTextAppearance="@style/IfoodCloneTabLayoutTextAppearance"
+            app:tabTextColor="@color/gray" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/view_pager_add"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+            app:menu="@menu/bottom_nav_menu"
+            app:labelVisibilityMode="labeled"
+            app:itemTextColor="@color/black"
+            app:itemIconTint="@color/bg_bottom_menu"
+            android:layout_height="65dp" />
+    </LinearLayout>
+
+
+</FrameLayout>
+

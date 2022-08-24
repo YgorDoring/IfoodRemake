@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">IFood Remake</string>
+    <string name="restaurants">Restaurantes</string>
+    <string name="marketplaces">Mercados</string>
+    <string name="drinks">Bebidas</string>
+    <string name="address">Av. Inácio Lamas, Centro</string>
+    <string name="market">Mercado</string>
+    <string name="dotted">&#8226;</string>
+    <string name="famous">Famosos no IFood</string>
+    <string name="see_more">Ver mais</string>
+    <string name="shop_category">\u2022 %1$s \u2022 %2$.1f km</string>
+    <string name="shop_price">%1$s min \u2022 R$ %2$.2f</string>
+    <string name="shops">Lojas</string>
+    <string name="explore_more">Explore mais com a conta do iFood</string>
+    <string name="enter">Entrar ou cadastrar-se</string>
+    <string name="home_menu">Home</string>
+    <string name="search_menu">Busca</string>
+    <string name="order_menu">Pedido</string>
+    <string name="profile_menu">Perfil</string>
+</resources>
