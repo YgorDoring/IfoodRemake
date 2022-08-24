@@ -1,7 +1,7 @@
 # IfoodRemake
 Estudo em cima da ferramenta de delivery mais famosa do mundo e um pouco das suas tecnologias.
 
-Aplicativo iniciado dia 05/01/2022, porém, não finalizado. Toda UI feita em kotlin utilizando um <a href="https://www.youtube.com/playlist?list=PLJ0AcghBBWSjGGWE3L9JSdacMhe1Fc5iI">curso gratuito do Youtube.</a>
+Aplicativo iniciado dia 05/01/2022, porém, não finalizado. Toda UI feita em kotlin, xml e android studio utilizando um <a href="https://www.youtube.com/playlist?list=PLJ0AcghBBWSjGGWE3L9JSdacMhe1Fc5iI">curso gratuito do Youtube.</a>
 <br><b>Conteúdos abordados:</b>
 - RecycleView
 - Coroutines
